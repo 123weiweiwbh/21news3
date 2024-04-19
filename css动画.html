@@ -1,0 +1,27 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+<meta charset="UTF-8">  
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  
+<title>CSS 动画案例</title>  
+<style>  
+  .animated-box {  
+    width: 100px;  
+    height: 100px;  
+    background-color: skyblue;  
+    margin: 50px;  
+    transition: transform 0.5s, background-color 0.5s; /* 定义过渡效果 */  
+  }  
+  
+  .animated-box:hover {  
+    transform: scale(1.2); /* 鼠标悬停时放大 */  
+    background-color: purple; /* 鼠标悬停时改变颜色 */  
+  }  
+</style>  
+</head>  
+<body>  
+  
+<div class="animated-box"></div>  
+  
+</body>  
+</html>
